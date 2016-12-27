@@ -5,6 +5,10 @@
 import mongoose from "mongoose"
 const Schema = mongoose.Schema
 const ObjectId = Schema.Types.ObjectId
+const MESSAGE_TYPE = {
+    0: "vaild",
+    1: "invaild"
+}
 const messageSchema = new mongoose.Schema({
     from: {                   // 发起会话的人
         type   : ObjectId,
@@ -28,6 +32,11 @@ const messageSchema = new mongoose.Schema({
     content: {               // 会话内容
         type   : String,
         require: true
+    },
+    vaild: {
+        default: 0,
+        type   : Number,
+        enum   : MESSAGE_TYPE
     }
 }, {
     timestamps: true

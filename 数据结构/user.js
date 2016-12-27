@@ -71,6 +71,10 @@ const userSchema = new mongoose.Schema({
         type: ObjectId,
         ref : "comment"
     } ],
+    blackList: [ {                 // 黑名单
+        type: ObjectId,
+        ref : "User"
+    } ],
     password: String,              // 密码
     vaild   : {                    // 用户是否正常
         default: 0,
