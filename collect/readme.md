@@ -67,6 +67,7 @@
     * [移动调试](http://www.cnblogs.com/zhoujg/p/4386611.html)
     * [mac安装redis](http://www.cnblogs.com/chinesern/p/5580665.html)
     * [sublime 安装package control](https://www.imjeff.cn/blog/62/)
+    * [nvm安装](http://www.cnblogs.com/kaiye/p/4937191.html)
 * 3.文档
     * [react rounter文档地址](http://react-guide.github.io/react-router-cn/index.html)
     * [redux文档地址](http://cn.redux.js.org/docs/basics/Actions.html)
